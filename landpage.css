@@ -1,3 +1,11 @@
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .coder_manager {
+      flex-direction: column;
+  }
+}
+
 body {
   color: #23155b;
   margin: 0;
@@ -191,11 +199,4 @@ border-radius: 5px;
 /*   border: none; */
 border-color: #8053ff;
 
-}
-
-/* Media Queries */
-@media screen and (max-width: 480px) {
-  .coder_manager {
-      flex-direction: column;
-  }
 }
